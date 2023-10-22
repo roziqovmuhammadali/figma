@@ -1,0 +1,120 @@
+.section {
+  width: 100%;
+  background-color: #1F2E35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 50px;
+  .section_asi {
+    max-width:90%;
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+    justify-content: center;
+    border-radius: 32px;
+    background: #02897a;
+    .section_sec {
+      max-width: 700px;
+      h1 {
+        max-width: 510px;
+        height: 92px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 151.4%; /* 48.448px */
+      }
+      button {
+        margin-top: 100px;
+        width: 150px;
+        border: none;
+        height: 50px;
+        border-radius: 8px;
+        background: #fff;
+        color: #22343d;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+    .section_sectio{
+        max-width: 551px;
+        height: 331px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+}
+@media (min-width:1200px) {
+    .section{
+        margin: 0 auto;
+    }
+}
+@media (min-width:990px) and (max-width:1199px) {
+    .section{
+        .section_asi{
+            flex-direction: column;
+        }
+    }
+}
+@media (min-width:770px) and (max-width:989px) {
+    .section{
+        .section_asi{
+            flex-direction: column;
+            .section_sec{
+                button{
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+@media (min-width:447px) and (max-width:769px) {
+    .section{
+        .section_asi{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px 10px;
+            max-width: 371px;
+            height: 688px;
+            
+            flex-direction: column;
+            .section_sec{
+                max-width: 321px;
+
+                button{
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:446px) {
+    .section{
+        padding: 80px 5px;
+        .section_asi{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px 15px;
+            max-width: 321px;
+            height: 688px;
+            
+            flex-direction: column;
+            .section_sec{
+                max-width: 321px;
+                button{
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+}

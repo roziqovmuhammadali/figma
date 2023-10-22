@@ -1,0 +1,134 @@
+.footer {
+  width: 100%;
+  padding: 50px 160px;
+  background-color: #1f2e35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 90px;
+  .footer_sec {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    .footer_spa {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    ul {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      margin-bottom: 10px;
+      line-height: 35px; /* 218.75% */
+    }
+    .footer_tion {
+      width: 325px;
+      height: 199px;
+      h5 {
+        width: 260px;
+        height: 57px;
+        flex-shrink: 0;
+        color: #fff;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 30px; /* 150% */
+        margin-bottom: 20px;
+      }
+      .footer_div {
+        width: 325px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #bcd0e5;
+        background-color: #fff;
+        margin-bottom: 20px;
+        input {
+          border: none;
+          height: 20px;
+          margin-left: 20px;
+        }
+      }
+      button {
+        width: 131px;
+        height: 39px;
+        flex-shrink: 0;
+        border: none;
+        border-radius: 4px;
+        background-color: #02897a;
+        color: #fff;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+  h3 {
+    max-width:394px;
+    height: 31px;
+    flex-shrink: 0;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+  }
+}
+@media (min-width:1400px) {
+    .footer{
+        margin: 0 auto;
+    }    
+}
+@media (min-width:1200px) and (max-width:1399px) {
+    .footer{
+        padding: 60px 80px;
+    }
+}
+@media (min-width:990px) and (max-width:1199px) {
+    .footer{
+        padding: 60px 40px;
+    }
+
+}
+@media (min-width:770px) and (max-width:989px) {
+    .footer{
+        padding: 60px 20px;
+    }
+
+}
+@media (min-width:447px) and (max-width:769px) {
+    .footer{
+        padding: 60px 10px;
+        .footer_sec{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
+@media (max-width:446px) {
+    .footer{
+        padding: 60px 5px;
+        .footer_sec{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+}
